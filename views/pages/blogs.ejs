@@ -1,0 +1,9 @@
+<%- include("../partials/header"); %>
+
+<%- include("../partials/top", { "head": "Blog Management" }) %>
+
+<% data.forEach((blog) => { %>
+    <p><%= blog.title %></p>
+<% }) %>
+
+<%- include("../partials/footer"); %>

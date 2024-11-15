@@ -1,0 +1,10 @@
+<%- include("../partials/header"); %>
+
+<h1>EJS Module</h1>
+
+<p>Name: <%= data.name %></p>
+<% if (data.active) { %>
+    <p>Age: <%= data.age %></p>
+<% } %>
+
+<%- include("../partials/footer"); %>
